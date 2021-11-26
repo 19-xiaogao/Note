@@ -11,6 +11,7 @@ module.exports = {
       { text: "首页", link: "/" },
       { text: "前端", link: "/web/" },
       { text: "后端", link: "/back_end/" },
+      { text: "计算机网络", link: "/computerNetwork/" },
       { text: "密码学", link: "/cryptography/" },
       { text: "运维", link: "/operations/" },
       { text: "github", link: "https://github.com/19-xiaogao/Note" },

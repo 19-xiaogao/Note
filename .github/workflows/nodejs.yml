@@ -23,7 +23,7 @@ jobs:
 
       - name: Deploy 19-xiaogao.github.io/master
         uses: peaceiris/actions-gh-pages@v3
-         with:
+        with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY  }}
           external_repository: git@github.com:19-xiaogao/19-xiaogao.github.io.git
           publish_branch: master

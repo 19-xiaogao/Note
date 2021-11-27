@@ -38,6 +38,12 @@ module.exports = {
           ],
         },
       ],
+      "/computerNetwork/": [
+        {
+          title: "libP2P",
+          children: ["/computerNetwork/libp2p/libp2p"],
+        },
+      ],
       "/cryptography/": [
         {
           title: "密码学",

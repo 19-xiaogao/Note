@@ -12,7 +12,7 @@ module.exports = {
       { text: "前端", link: "/web/" },
       { text: "后端", link: "/backend/" },
       { text: "计算机网络", link: "/computerNetwork/" },
-      { text: "密码学", link: "/cryptography/" },
+      { text: "区块链", link: "/blockChain/" },
       { text: "运维", link: "/operations/" },
       { text: "github", link: "https://github.com/19-xiaogao/Note" },
     ],
@@ -22,6 +22,16 @@ module.exports = {
           title: "js基础",
           sidebarDepth: 0,
           children: ["/web/baseJs/baseJs"],
+        },
+      ],
+      "/blockChain/": [
+        {
+          title: "以太坊",
+          sidebarDepth: 1,
+          children: [
+            "/blockChain/ethereum/ethereum",
+            "/blockChain/ethereum/wallet",
+          ],
         },
       ],
       "/backend/": [

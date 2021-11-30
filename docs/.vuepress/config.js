@@ -27,10 +27,11 @@ module.exports = {
       "/blockChain/": [
         {
           title: "以太坊",
-          sidebarDepth: 1,
+          sidebarDepth: 2,
           children: [
             "/blockChain/ethereum/ethereum",
             "/blockChain/ethereum/wallet",
+            "/blockChain/ethereum/solidity",
           ],
         },
       ],

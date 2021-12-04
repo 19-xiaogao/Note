@@ -31,7 +31,15 @@ module.exports = {
           children: [
             "/blockChain/ethereum/ethereum",
             "/blockChain/ethereum/wallet",
-            "/blockChain/ethereum/solidity",
+            {
+              title: "solidity",
+              sidebarDepth: 2,
+              children: [
+                "/blockChain/ethereum/solidity/solidity",
+                "/blockChain/ethereum/solidity/layoutSourceFile",
+                "/blockChain/ethereum/solidity/StructureContract",
+              ],
+            },
           ],
         },
       ],

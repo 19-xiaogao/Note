@@ -21,7 +21,7 @@ module.exports = {
                 {
                     title: "js基础",
                     sidebarDepth: 0,
-                    children: ["/web/baseJs/baseJs","/web/ThreeJs/ThreeJs"],
+                    children: ["/web/baseJs/baseJs","/web/ThreeJs/baseConcept"],
                 },
             ],
             "/blockChain/": [
